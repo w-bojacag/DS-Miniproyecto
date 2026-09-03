@@ -47,6 +47,7 @@ data/*
 # --- IDEs y editores ---
 .vscode/
 .idea/
+GEMINI.md
 
 # --- Sistema operativo ---
 .DS_Store
