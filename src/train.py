@@ -1,3 +1,4 @@
+import os
 import pandas as pd
 import mlflow
 import mlflow.sklearn
@@ -8,6 +9,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.base import BaseEstimator, TransformerMixin
+
 
 class WinsorizerP99(BaseEstimator, TransformerMixin):
     def __init__(self, columna="utilizacion"):
@@ -68,10 +70,10 @@ def train_model(n_estimators=100, max_depth=5, class_weight=None):
 
 
     # 2. Configurar MLflow
-    mlflow.set_tracking_uri("sqlite:///mlflow.db")
+    mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db"))
     mlflow.set_experiment("riesgo_crediticio_v1")
     
-    with mlflow.start_run():
+    with mlflow.start_run(run_name=f"rf_n{n_estimators}_d{max_depth}_cw{class_weight}"):
         # 3. Entrenar pipeline completo
         pipeline.fit(X_train, y_train)
         
