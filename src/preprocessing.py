@@ -26,26 +26,20 @@ def preprocess_data(input_path, output_path):
     # 1. Filtrar registros con edad <= 0
     df = df[df['edad'] > 0]
     
-    # 2. Variable indicadora de ingreso faltante e imputación
+    # 2. Variable indicadora de ingreso faltante
     df['ingreso_faltante'] = df['ingreso_mensual'].isna().astype(int)
-    df['ingreso_mensual'] = df['ingreso_mensual'].fillna(df['ingreso_mensual'].median())
-    
-    # 3. Imputar dependientes
-    df['dependientes'] = df['dependientes'].fillna(df['dependientes'].median())
-    
-    # 4. Tratamiento de centinelas (moras 96/98)
+
+    # 3. Identificar valores 96/98
     cols_moras = ['moras_30_59', 'moras_60_89', 'moras_90']
     df['es_moro_cronico'] = df[cols_moras].isin([96, 98]).any(axis=1).astype(int)
+
+    # 4.  Reemplazar centinelas
     df[cols_moras] = df[cols_moras].replace([96, 98], 0)
     
-    # 5. Winsorización
-    limite_superior = df['utilizacion'].quantile(0.99)
-    df['utilizacion'] = df['utilizacion'].clip(upper=limite_superior)
-    
     print(f"Guardando datos procesados en {output_path}...")
-    df.to_csv(output_path, index=True)
+    df.to_csv(output_path, index=False)
     print("Preprocesamiento completado exitosamente.")
 
 if __name__ == "__main__":
     # invocamos la función limoieza de datos
-    preprocess_data("data/raw/cs-training.csv", "data/processed/data_clean.csv")
+    preprocess_data("data/raw/cs-training.csv", "data/processed/data_prepared.csv")

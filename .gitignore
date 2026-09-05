@@ -52,3 +52,8 @@ GEMINI.md
 # --- Sistema operativo ---
 .DS_Store
 Thumbs.db
+
+
+# MLflow local
+mlruns/
+mlflow.db
