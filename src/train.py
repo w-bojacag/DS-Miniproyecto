@@ -4,7 +4,15 @@ import mlflow
 import mlflow.sklearn
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score, roc_auc_score, classification_report
+from sklearn.metrics import (
+    accuracy_score,
+    roc_auc_score,
+    average_precision_score,
+    precision_score,
+    recall_score,
+    f1_score,
+    classification_report,
+)
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
@@ -91,18 +99,35 @@ def train_model(n_estimators=100, max_depth=5, class_weight=None):
         predictions = pipeline.predict(X_test)
         probs = pipeline.predict_proba(X_test)[:, 1]
 
-        # 6. Métricas de evaluación
-        acc = accuracy_score(y_test, predictions)
-        roc_auc = roc_auc_score(y_test, probs)
-        
+        # 6. Métricas de evaluación (mismas que en train_logreg.py para poder comparar)
+        metrics = {
+            "accuracy": accuracy_score(y_test, predictions),
+            "roc_auc": roc_auc_score(y_test, probs),
+            "pr_auc": average_precision_score(y_test, probs),
+            "precision_clase1": precision_score(y_test, predictions, zero_division=0),
+            "recall_clase1": recall_score(y_test, predictions),
+            "f1_clase1": f1_score(y_test, predictions),
+        }
+
         # 7. Registrar métricas
-        mlflow.log_metric("accuracy", acc)
-        mlflow.log_metric("roc_auc", roc_auc)
-        
+        mlflow.log_metrics(metrics)
+
+        # 7.1 Importancia de variables (equivalente a los coeficientes de la regresión logística)
+        nombres = pipeline.named_steps["preprocessing"].get_feature_names_out()
+        importancias = pd.DataFrame(
+            {
+                "variable": nombres,
+                "importancia": pipeline.named_steps["modelo"].feature_importances_,
+            }
+        ).sort_values("importancia", ascending=False)
+        importancias.to_csv("importancias_rf.csv", index=False)
+        mlflow.log_artifact("importancias_rf.csv")
+
         # 8. Imprimir reporte detallado
         print(f"\nReporte de Clasificación (n={n_estimators}, depth={max_depth}):")
         print(classification_report(y_test, predictions))
-        
+        print({k: round(v, 4) for k, v in metrics.items()})
+
         # 9. Guardar pipeline completo
         mlflow.sklearn.log_model(
             pipeline,
@@ -112,8 +137,9 @@ def train_model(n_estimators=100, max_depth=5, class_weight=None):
                 "numpy.dtype"
             ]
         )
-        
-        print(f"Entrenamiento finalizado. ROC-AUC: {roc_auc:.4f} | Accuracy: {acc:.4f}")
+
+        print(f"Entrenamiento finalizado. ROC-AUC: {metrics['roc_auc']:.4f} | "
+              f"Accuracy: {metrics['accuracy']:.4f} | Recall(1): {metrics['recall_clase1']:.4f}")
 
 if __name__ == "__main__":
     # Baseline
