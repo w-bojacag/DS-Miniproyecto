@@ -52,15 +52,12 @@ if st.button("Evaluar Solicitante", type="primary"):
     }])
     
     try:
-        # Intenta cargar el modelo real
         modelo = joblib.load("src/modelo_logreg.pkl")
     except FileNotFoundError:
-        # Si no existe, crea un modelo simulado temporal para pruebas de interfaz
         modelo = Pipeline([
             ('scaler', StandardScaler()),
             ('clf', LogisticRegression())
         ])
-        # Creamos dos filas dummy con ambas clases (0 y 1) para evitar el error del solver
         X_dummy = pd.DataFrame([
             [35, 5000, 0, 0.3, 0.5, 5, 1, 0, 0, 0],
             [50, 2000, 1, 0.8, 0.9, 2, 0, 1, 0, 0]
