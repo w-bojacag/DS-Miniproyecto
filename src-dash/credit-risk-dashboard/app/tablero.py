@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import altair as alt
 import requests
 import os
 
@@ -85,28 +86,34 @@ if st.button("Evaluar Solicitante", type="primary"):
             st.subheader("📊 Explicación del Modelo")
             st.write(f"*Unidad de aporte: {explicacion.get('unidad_aporte', 'N/A')}*")
 
-            col_var, col_valor, col_aporte, col_dir = st.columns(4)
-            with col_var:
-                st.write("**Variable**")
-            with col_valor:
-                st.write("**Valor**")
-            with col_aporte:
-                st.write("**Aporte**")
-            with col_dir:
-                st.write("**Dirección**")
+            df_var = pd.DataFrame(variables)
+            df_var["etiqueta"] = df_var.apply(
+                lambda r: f"{r.get('nombre', r.get('variable'))} ({r.get('valor_original', 'N/A')})",
+                axis=1,
+            )
+            df_var["efecto"] = df_var["aporte"].apply(
+                lambda v: "Aumenta el riesgo" if v > 0 else "Reduce el riesgo"
+            )
 
-            for var in variables:
-                col_var, col_valor, col_aporte, col_dir = st.columns(4)
-                with col_var:
-                    st.write(f"{var.get('nombre', var.get('variable'))}")
-                with col_valor:
-                    st.write(f"{var.get('valor_original', 'N/A')}")
-                with col_aporte:
-                    aporte_val = var.get('aporte', 0)
-                    color = "🟢" if aporte_val < 0 else "🔴"
-                    st.write(f"{color} {aporte_val:+.2f}")
-                with col_dir:
-                    st.write(var.get('direccion', 'N/A'))
+            chart = (
+                alt.Chart(df_var)
+                .mark_bar()
+                .encode(
+                    x=alt.X("aporte:Q", title="Aporte a la predicción (log-odds)"),
+                    y=alt.Y("etiqueta:N", sort="-x", title=None),
+                    color=alt.Color(
+                        "efecto:N",
+                        scale=alt.Scale(
+                            domain=["Aumenta el riesgo", "Reduce el riesgo"],
+                            range=["#d62728", "#2ca02c"],
+                        ),
+                        legend=alt.Legend(title=None),
+                    ),
+                    tooltip=["nombre", "valor_original", "aporte", "direccion"],
+                )
+                .properties(height=180)
+            )
+            st.altair_chart(chart, use_container_width=True)
 
     except requests.exceptions.RequestException as e:
         st.error(f"❌ Error al conectar con la API: {str(e)}")

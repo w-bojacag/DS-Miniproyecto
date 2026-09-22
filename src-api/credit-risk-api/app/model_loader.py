@@ -69,13 +69,15 @@ def construir_fila(input_data: dict) -> pd.DataFrame:
     return pd.DataFrame([fila])
 
 
-def predecir(input_data: dict) -> Dict[str, Any]:
+def predecir(input_data: dict, umbral_override: float | None = None) -> Dict[str, Any]:
     bundle = cargar_modelo()
     pipeline = bundle["pipeline"]
     fila = construir_fila(input_data)
 
     probabilidad = float(pipeline.predict_proba(fila)[:, 1][0])
-    umbral = bundle["umbral"]
+    # el umbral de entorno permite ajustar la politica de riesgo sin
+    # reentrenar; si no se define, se usa el optimo calculado al entrenar
+    umbral = umbral_override if umbral_override is not None else bundle["umbral"]
     clasificacion = "Riesgo Alto" if probabilidad >= umbral else "Riesgo Bajo"
 
     transformado = pipeline[:-1].transform(fila)

@@ -29,4 +29,4 @@ async def predict(input_data: schemas.CreditApplicationInput) -> Any:
     Prediccion usando el modelo de riesgo crediticio
     """
     logger.info(f"Making prediction on inputs: {input_data}")
-    return predecir(input_data.dict())
+    return predecir(input_data.dict(), umbral_override=settings.RISK_THRESHOLD)

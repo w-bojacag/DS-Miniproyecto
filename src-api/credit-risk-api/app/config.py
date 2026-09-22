@@ -1,7 +1,7 @@
 import logging
 import sys
 from types import FrameType
-from typing import List, cast
+from typing import List, Optional, cast
 
 from loguru import logger
 from pydantic import AnyHttpUrl, BaseSettings
@@ -27,6 +27,12 @@ class Settings(BaseSettings):
     ]
 
     PROJECT_NAME: str = "Credit Risk API"
+
+    # Umbral de probabilidad para clasificar como Riesgo Alto. Si no se define,
+    # se usa el umbral optimo calculado al entrenar el modelo (ver
+    # src/export_model.py). Permite ajustar la politica de riesgo sin
+    # reentrenar ni redesplegar el modelo.
+    RISK_THRESHOLD: Optional[float] = None
 
     class Config:
         case_sensitive = True

@@ -44,13 +44,13 @@ Cada servicio lee su configuración desde un archivo `.env` ubicado en su carpet
 
 ```env
 PORT=8001
-RISK_THRESHOLD=0.40
+RISK_THRESHOLD=0.60
 ```
 
 | Variable | Descripción |
 |---|---|
-| `PORT` | Puerto en el que la API escucha dentro del contenedor. **Obligatoria**: sin ella la API no inicia. |
-| `RISK_THRESHOLD` | Umbral que representa una política general para convertir una probabilidad en una decisión. **Obligatoria**: sin ella la API no inicia. |
+| `PORT` | Puerto en el que la API escucha dentro del contenedor. Si no se define, usa 8001. |
+| `RISK_THRESHOLD` | Umbral de probabilidad a partir del cual una solicitud se clasifica como Riesgo Alto. **Opcional**: si no se define, la API usa el umbral óptimo calculado al entrenar el modelo (ver `src/export_model.py`). Defínala solo si se quiere ajustar la política de riesgo sin reentrenar el modelo. |
 
 ### 3.2 Tablero: `src-dash/.env`
 
