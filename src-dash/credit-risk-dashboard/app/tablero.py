@@ -57,7 +57,7 @@ if st.button("Evaluar Solicitante", type="primary"):
     try:
         api_url = os.getenv("API_URL", "http://localhost")
         api_port = os.getenv("API_PORT", "8000")
-        api_endpoint = os.getenv("API_ENDPOINT", "/predict")
+        api_endpoint = os.getenv("API_ENDPOINT", "/api/v1/predict")
 
         full_url = f"{api_url}:{api_port}{api_endpoint}"
 

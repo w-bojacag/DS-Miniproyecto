@@ -1,26 +1,36 @@
-import math
-
-import numpy as np
-import pandas as pd
 from fastapi.testclient import TestClient
 
 
-def test_make_prediction(client: TestClient, test_data: pd.DataFrame) -> None:
-    # Given
-    payload = {
-        # ensure pydantic plays well with np.nan
-        "inputs": test_data.replace({np.nan: None}).to_dict(orient="records")
-    }
+def test_health(client: TestClient) -> None:
+    response = client.get("/api/v1/health")
 
-    # When
-    response = client.post(
-        "http://localhost:8001/api/v1/predict",
-        json=payload,
-    )
-
-    # Then
     assert response.status_code == 200
-    prediction_data = response.json()
-    assert prediction_data["predictions"]
-    assert prediction_data["errors"] is None
-    assert math.isclose(prediction_data["predictions"][0], 113422, rel_tol=100)
+    body = response.json()
+    assert body["model_version"] == "xgb_n300_d5_balanced"
+
+
+def test_predict_bajo_riesgo(client: TestClient, solicitud_bajo_riesgo: dict) -> None:
+    response = client.post("/api/v1/predict", json=solicitud_bajo_riesgo)
+
+    assert response.status_code == 200
+    data = response.json()
+    assert 0.0 <= data["probabilidad_incumplimiento"] <= 1.0
+    assert data["clasificacion"] == "Riesgo Bajo"
+    assert len(data["explicacion"]["variables"]) == 4
+
+
+def test_predict_alto_riesgo(client: TestClient, solicitud_alto_riesgo: dict) -> None:
+    response = client.post("/api/v1/predict", json=solicitud_alto_riesgo)
+
+    assert response.status_code == 200
+    data = response.json()
+    assert data["clasificacion"] == "Riesgo Alto"
+    # una solicitud con moras severas debe pesar en la explicacion
+    variables = {v["variable"] for v in data["explicacion"]["variables"]}
+    assert variables & {"moras_90", "moras_30_59", "moras_60_89", "utilizacion"}
+
+
+def test_predict_rechaza_input_invalido(client: TestClient) -> None:
+    response = client.post("/api/v1/predict", json={"utilizacion": "no-es-un-numero"})
+
+    assert response.status_code == 422
