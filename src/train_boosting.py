@@ -3,16 +3,11 @@ import numpy as np
 import pandas as pd
 import mlflow
 import mlflow.sklearn
-from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split, StratifiedKFold, cross_validate
 from sklearn.metrics import (
-    accuracy_score,
-    roc_auc_score,
-    average_precision_score,
-    precision_score,
-    recall_score,
-    f1_score,
-    classification_report,
+    accuracy_score, roc_auc_score, average_precision_score,
+    precision_score, recall_score, f1_score, classification_report,
     confusion_matrix,
 )
 from sklearn.compose import ColumnTransformer
@@ -21,6 +16,8 @@ from sklearn.pipeline import Pipeline
 from sklearn.base import BaseEstimator, TransformerMixin
 
 
+# misma clase que en train.py, la repito aca en vez de importarla para no depender
+# de otro archivo si alguien corre este solo
 class WinsorizerP99(BaseEstimator, TransformerMixin):
     def __init__(self, columna="utilizacion"):
         self.columna = columna
@@ -32,9 +29,7 @@ class WinsorizerP99(BaseEstimator, TransformerMixin):
 
     def transform(self, X):
         X = X.copy()
-        X[self.columna] = X[self.columna].clip(
-            upper=self.limite_superior_
-        )
+        X[self.columna] = X[self.columna].clip(upper=self.limite_superior_)
         return X
 
 
@@ -43,7 +38,6 @@ class WinsorizerP99(BaseEstimator, TransformerMixin):
 # aca se repite el entrenamiento 5 veces con particiones distintas y se saca
 # promedio y desviacion de cada metrica
 def validacion_cruzada(pipeline, X, y, cv_splits=5, random_state=42):
-    """5-fold CV sobre todo el dataset. Complementa (no reemplaza) el split 80/20."""
     cv = StratifiedKFold(n_splits=cv_splits, shuffle=True, random_state=random_state)
     scoring = ["roc_auc", "average_precision", "accuracy", "precision", "recall", "f1"]
     resultados = cross_validate(pipeline, X, y, cv=cv, scoring=scoring, n_jobs=-1)
@@ -65,7 +59,6 @@ def validacion_cruzada(pipeline, X, y, cv_splits=5, random_state=42):
 # pero ese numero es arbitrario. aca se recorre de 0.05 a 0.95 para ver como se
 # mueven precision y recall segun donde se ponga la linea de corte
 def analisis_umbral(pipeline, X_test, y_test, archivo="umbrales.csv"):
-    """Precision/recall/F1 y matriz de confusion en umbrales de 0.05 a 0.95."""
     umbrales = np.arange(0.05, 0.96, 0.05)
     y_proba = pipeline.predict_proba(X_test)[:, 1]
 
@@ -100,8 +93,6 @@ def analisis_umbral(pipeline, X_test, y_test, archivo="umbrales.csv"):
 def cuantificar_costo(tabla_umbrales, costo_fn=10, costo_fp=1,
                       volumen_esperado=1000, tasa_base=0.067,
                       archivo="costo_umbrales.csv"):
-    """Traduce cada umbral a revisiones manuales / incumplidores no detectados
-    sobre un volumen hipotetico de solicitudes, y a un costo total."""
     tabla = tabla_umbrales.copy()
     incumplidores_esperados = volumen_esperado * tasa_base
 
@@ -128,136 +119,117 @@ def cuantificar_costo(tabla_umbrales, costo_fn=10, costo_fp=1,
     return tabla
 
 
-def train_model(n_estimators=100, max_depth=5, class_weight=None):
-    # 1. Cargar datos procesados
+def train_boosting(n_estimators=100, max_depth=3, learning_rate=0.1, balancear=False):
+    # mismos datos y mismo split que RF y regresion logistica, para que los 3
+    # modelos sean comparables entre si
     df = pd.read_csv("data/processed/data_prepared.csv")
-
-    # 1.1 Definir X (features) y y (target)
     X = df.drop("incumplio", axis=1)
     y = df["incumplio"]
 
-    # 1.2 Dividir en entrenamiento y prueba
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
-
-    # 1.3 Definir columnas a imputar y preprocesador
-    columnas_imputar = [
-        "ingreso_mensual",
-        "dependientes"
-    ]
-
-    # 1.4 Crear preprocesador para imputar valores faltantes en las columnas seleccionadas
-    preprocessor = ColumnTransformer(
-        transformers=[
-            (
-                "imputacion",
-                SimpleImputer(strategy="median"),
-                columnas_imputar
-            )
-        ],
-        remainder="passthrough"
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42, stratify=y
     )
 
-    # 1.5 Crear pipeline que incluya el preprocesador y el modelo
+    # misma imputacion por mediana que usan los otros dos
+    columnas_imputar = ["ingreso_mensual", "dependientes"]
+    preprocessor = ColumnTransformer(
+        transformers=[("imputacion", SimpleImputer(strategy="median"), columnas_imputar)],
+        remainder="passthrough",
+    )
+
+    # xgboost no tiene el class_weight="balanced" de sklearn, el equivalente es
+    # scale_pos_weight = negativos / positivos en el set de entrenamiento
+    scale_pos_weight = 1.0
+    if balancear:
+        scale_pos_weight = (y_train == 0).sum() / (y_train == 1).sum()
+
     pipeline = Pipeline([
         ("winsorizacion", WinsorizerP99(columna="utilizacion")),
         ("preprocessing", preprocessor),
-        ("modelo", RandomForestClassifier(
+        ("modelo", XGBClassifier(
             n_estimators=n_estimators,
             max_depth=max_depth,
-            class_weight=class_weight,
-            random_state=42
-        ))
+            learning_rate=learning_rate,
+            scale_pos_weight=scale_pos_weight,
+            eval_metric="logloss",
+            random_state=42,
+        )),
     ])
 
-    # 2. Configurar MLflow
     mlflow.set_tracking_uri(os.getenv("MLFLOW_TRACKING_URI", "sqlite:///mlflow.db"))
     mlflow.set_experiment("riesgo_crediticio_v1")
 
-    run_name = f"rf_n{n_estimators}_d{max_depth}_cw{class_weight}"
+    cw_tag = "balanced" if balancear else "none"
+    run_name = f"xgb_n{n_estimators}_d{max_depth}_cw{cw_tag}"
 
     with mlflow.start_run(run_name=run_name):
-        # 3. Entrenar pipeline completo
         pipeline.fit(X_train, y_train)
 
-        # 4. Registrar parámetros
-        mlflow.log_param("n_estimators", n_estimators)
-        mlflow.log_param("max_depth", max_depth)
-        mlflow.log_param("imputacion", "median")
-        mlflow.log_param("winsorizacion", "p99_utilizacion")
-        mlflow.log_param("test_size", 0.2)
-        mlflow.log_param("stratify", True)
-        mlflow.log_param("class_weight", str(class_weight))
-        mlflow.log_param("random_state", 42)
+        mlflow.log_params({
+            "modelo": "xgboost",
+            "n_estimators": n_estimators,
+            "max_depth": max_depth,
+            "learning_rate": learning_rate,
+            "scale_pos_weight": scale_pos_weight,
+            "imputacion": "median",
+            "winsorizacion": "p99_utilizacion",
+            "test_size": 0.2,
+            "stratify": True,
+            "random_state": 42,
+        })
 
-        # 5. Predicciones y Métricas
-        predictions = pipeline.predict(X_test)
-        probs = pipeline.predict_proba(X_test)[:, 1]
+        y_pred = pipeline.predict(X_test)
+        y_proba = pipeline.predict_proba(X_test)[:, 1]
 
-        # 6. Métricas de evaluación (mismas que en train_logreg.py para poder comparar)
+        # las mismas 6 metricas que RF y logistica, para poder comparar los 3 modelos
+        # en la misma tabla en mlflow
         metrics = {
-            "accuracy": accuracy_score(y_test, predictions),
-            "roc_auc": roc_auc_score(y_test, probs),
-            "pr_auc": average_precision_score(y_test, probs),
-            "precision_clase1": precision_score(y_test, predictions, zero_division=0),
-            "recall_clase1": recall_score(y_test, predictions),
-            "f1_clase1": f1_score(y_test, predictions),
+            "accuracy": accuracy_score(y_test, y_pred),
+            "roc_auc": roc_auc_score(y_test, y_proba),
+            "pr_auc": average_precision_score(y_test, y_proba),
+            "precision_clase1": precision_score(y_test, y_pred, zero_division=0),
+            "recall_clase1": recall_score(y_test, y_pred),
+            "f1_clase1": f1_score(y_test, y_pred),
         }
-
-        # 7. Registrar métricas
         mlflow.log_metrics(metrics)
 
-        # 7.1 Importancia de variables (equivalente a los coeficientes de la regresión logística)
-        nombres = pipeline.named_steps["preprocessing"].get_feature_names_out()
-        importancias = pd.DataFrame(
-            {
-                "variable": nombres,
-                "importancia": pipeline.named_steps["modelo"].feature_importances_,
-            }
-        ).sort_values("importancia", ascending=False)
-        importancias.to_csv("importancias_rf.csv", index=False)
-        mlflow.log_artifact("importancias_rf.csv")
-
-        # 7.2 cruzada + umbral + costo, lo que pedian en la retro de la entrega 2
+        # cruzada + umbral + costo, lo que pedian en la retro de la entrega 2
         validacion_cruzada(pipeline, X, y)
         tabla_umbrales = analisis_umbral(pipeline, X_test, y_test, archivo=f"umbrales_{run_name}.csv")
         cuantificar_costo(tabla_umbrales, costo_fn=10, costo_fp=1, volumen_esperado=1000,
                           archivo=f"costo_{run_name}.csv")
 
-        # 8. Imprimir reporte detallado
-        print(f"\nReporte de Clasificación (n={n_estimators}, depth={max_depth}):")
-        print(classification_report(y_test, predictions))
+        # importancia de variables, es el equivalente en xgboost a los coeficientes
+        # que se sacan en la regresion logistica
+        nombres = pipeline.named_steps["preprocessing"].get_feature_names_out()
+        importancias = pd.DataFrame({
+            "variable": nombres,
+            "importancia": pipeline.named_steps["modelo"].feature_importances_,
+        }).sort_values("importancia", ascending=False)
+        importancias.to_csv(f"importancias_{run_name}.csv", index=False)
+        mlflow.log_artifact(f"importancias_{run_name}.csv")
+
+        print(f"\n== {run_name} ==")
+        print(classification_report(y_test, y_pred, digits=4))
         print({k: round(v, 4) for k, v in metrics.items()})
 
-        # 9. Guardar pipeline completo
         mlflow.sklearn.log_model(
             pipeline,
-            name="modelo_random_forest",
+            name="modelo_xgboost",
+            # xgboost es libreria externa, hay que declarar sus clases como
+            # confiables o skops no deja guardar el modelo
             skops_trusted_types=[
                 "__main__.WinsorizerP99",
-                "numpy.dtype"
-            ]
+                "numpy.dtype",
+                "xgboost.core.Booster",
+                "xgboost.sklearn.XGBClassifier",
+            ],
         )
-
-        print(f"Entrenamiento finalizado. ROC-AUC: {metrics['roc_auc']:.4f} | "
-              f"Accuracy: {metrics['accuracy']:.4f} | Recall(1): {metrics['recall_clase1']:.4f}")
 
 
 if __name__ == "__main__":
-    # Baseline
-    train_model(
-        n_estimators=100,
-        max_depth=5
-    )
-
-    # Mayor profundidad
-    train_model(
-        n_estimators=150,
-        max_depth=10
-    )
-
-    # Tratamiento del desbalance
-    train_model(
-        n_estimators=150,
-        max_depth=10,
-        class_weight="balanced"
-    )
+    # mismo patron que ya usan RF y logistica: baseline, mas capacidad, y al final
+    # con balanceo de clases, para poder ver el efecto de cada cambio por separado
+    train_boosting(n_estimators=100, max_depth=3, learning_rate=0.1, balancear=False)
+    train_boosting(n_estimators=300, max_depth=5, learning_rate=0.1, balancear=False)
+    train_boosting(n_estimators=300, max_depth=5, learning_rate=0.1, balancear=True)
