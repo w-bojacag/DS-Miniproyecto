@@ -1,9 +1,13 @@
 import streamlit as st
 import pandas as pd
-import joblib
-from sklearn.linear_model import LogisticRegression
-from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import StandardScaler
+import requests
+import os
+
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
 
 # Configuración de la página
 st.set_page_config(page_title="Scoring de Crédito", page_icon="🏦", layout="centered")
@@ -37,7 +41,7 @@ with col2:
 
 # Botón de predicción
 if st.button("Evaluar Solicitante", type="primary"):
-    input_data = pd.DataFrame([{
+    input_data = {
         "edad": edad,
         "ingreso_mensual": ingreso_mensual,
         "dependientes": dependientes,
@@ -48,31 +52,63 @@ if st.button("Evaluar Solicitante", type="primary"):
         "moras_30_59": moras_30_59,
         "moras_60_89": moras_60_89,
         "moras_90": moras_90
-    }])
+    }
 
     try:
-        modelo = joblib.load("src/modelo_logreg.pkl")
-    except FileNotFoundError:
-        modelo = Pipeline([
-            ('scaler', StandardScaler()),
-            ('clf', LogisticRegression())
-        ])
-        X_dummy = pd.DataFrame([
-            [35, 5000, 0, 0.3, 0.5, 5, 1, 0, 0, 0],
-            [50, 2000, 1, 0.8, 0.9, 2, 0, 1, 0, 0]
-        ], columns=input_data.columns)
-        y_dummy = [0, 1]
-        modelo.fit(X_dummy, y_dummy)
+        api_url = os.getenv("API_URL", "http://localhost")
+        api_port = os.getenv("API_PORT", "8000")
+        api_endpoint = os.getenv("API_ENDPOINT", "/predict")
 
-    probabilidad = float(modelo.predict_proba(input_data)[0][1])
+        full_url = f"{api_url}:{api_port}{api_endpoint}"
 
-    st.divider()
-    st.subheader("Resultado de la Evaluación")
-    st.progress(probabilidad)
+        response = requests.post(full_url, json=input_data, timeout=10)
+        response.raise_for_status()
+        resultado = response.json()
 
-    if probabilidad >= 0.5:
-        st.error(f"⚠️ ALTO RIESGO: Probabilidad de incumplimiento del {probabilidad*100:.1f}%")
-        st.write("Recomendación: **Revisión Manual / Rechazar**")
-    else:
-        st.success(f"✅ RIESGO CONTROLADO: Probabilidad de incumplimiento del {probabilidad*100:.1f}%")
-        st.write("Recomendación: **Aprobar**")
+        probabilidad = resultado.get("probabilidad_incumplimiento", 0)
+        clasificacion = resultado.get("clasificacion", "")
+        explicacion = resultado.get("explicacion", {})
+        variables = explicacion.get("variables", [])
+
+        st.divider()
+        st.subheader("Resultado de la Evaluación")
+        st.progress(probabilidad)
+
+        if clasificacion.upper() == "RIESGO ALTO":
+            st.error(f"⚠️ {clasificacion.upper()}: Probabilidad de incumplimiento del {probabilidad*100:.1f}%")
+            st.write("Recomendación: **Revisión Manual / Rechazar**")
+        else:
+            st.success(f"✅ {clasificacion.upper()}: Probabilidad de incumplimiento del {probabilidad*100:.1f}%")
+            st.write("Recomendación: **Aprobar**")
+
+        if variables:
+            st.subheader("📊 Explicación del Modelo")
+            st.write(f"*Unidad de aporte: {explicacion.get('unidad_aporte', 'N/A')}*")
+
+            col_var, col_valor, col_aporte, col_dir = st.columns(4)
+            with col_var:
+                st.write("**Variable**")
+            with col_valor:
+                st.write("**Valor**")
+            with col_aporte:
+                st.write("**Aporte**")
+            with col_dir:
+                st.write("**Dirección**")
+
+            for var in variables:
+                col_var, col_valor, col_aporte, col_dir = st.columns(4)
+                with col_var:
+                    st.write(f"{var.get('nombre', var.get('variable'))}")
+                with col_valor:
+                    st.write(f"{var.get('valor_original', 'N/A')}")
+                with col_aporte:
+                    aporte_val = var.get('aporte', 0)
+                    color = "🟢" if aporte_val < 0 else "🔴"
+                    st.write(f"{color} {aporte_val:+.2f}")
+                with col_dir:
+                    st.write(var.get('direccion', 'N/A'))
+
+    except requests.exceptions.RequestException as e:
+        st.error(f"❌ Error al conectar con la API: {str(e)}")
+    except Exception as e:
+        st.error(f"❌ Error procesando la respuesta: {str(e)}")

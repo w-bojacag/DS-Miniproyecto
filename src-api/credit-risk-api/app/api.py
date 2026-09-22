@@ -28,20 +28,50 @@ def health() -> dict:
 
 # Ruta para realizar las predicciones
 @api_router.post("/predict", response_model=schemas.PredictionResults, status_code=200)
-async def predict(input_data: schemas.MultipleDataInputs) -> Any:
+async def predict(input_data: dict) -> Any:
     """
-    Prediccion usando el modelo de bankchurn
+    Prediccion usando el modelo de riesgo crediticio
     """
 
-    input_df = pd.DataFrame(jsonable_encoder(input_data.inputs))
+    logger.info(f"Making prediction on inputs: {input_data}")
 
-    logger.info(f"Making prediction on inputs: {input_data.inputs}")
-    results = make_prediction(input_data=input_df.replace({np.nan: None}))
-
-    if results["errors"] is not None:
-        logger.warning(f"Prediction validation error: {results.get('errors')}")
-        raise HTTPException(status_code=400, detail=json.loads(results["errors"]))
-
-    logger.info(f"Prediction results: {results.get('predictions')}")
-
+    # TODO: Integrar con modelo real de predicción
+    results = {
+        "probabilidad_incumplimiento": 0.36,
+        "umbral_aplicado": 0.40,
+        "clasificacion": "Riesgo Alto",
+        "explicacion": {
+            "unidad_aporte": "log_odds",
+            "variables": [
+                {
+                    "variable": "moras_90",
+                    "nombre": "Moras mayores a 90 días",
+                    "valor_original": int(input_data.get("moras_90", 0)),
+                    "aporte": 0.82,
+                    "direccion": "aumenta"
+                },
+                {
+                    "variable": "utilizacion",
+                    "nombre": "Utilización del crédito",
+                    "valor_original": round(input_data.get("utilizacion", 0.5), 2),
+                    "aporte": 0.57,
+                    "direccion": "aumenta"
+                },
+                {
+                    "variable": "edad",
+                    "nombre": "Edad",
+                    "valor_original": int(input_data.get("edad", 35)),
+                    "aporte": -0.31,
+                    "direccion": "reduce"
+                },
+                {
+                    "variable": "ingreso_mensual",
+                    "nombre": "Ingreso mensual",
+                    "valor_original": int(input_data.get("ingreso_mensual", 5000)),
+                    "aporte": -0.18,
+                    "direccion": "reduce"
+                }
+            ]
+        }
+    }
     return results

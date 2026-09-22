@@ -3,8 +3,28 @@ from typing import Any, List, Optional
 from pydantic import BaseModel
 from model.processing.validation import DataInputSchema
 
+# Esquema para variables explicativas
+class VariableExplicacion(BaseModel):
+    variable: str
+    nombre: str
+    valor_original: float
+    aporte: float
+    direccion: str
+
+# Esquema para explicación del modelo
+class Explicacion(BaseModel):
+    unidad_aporte: str
+    variables: List[VariableExplicacion]
+
 # Esquema de los resultados de predicción
 class PredictionResults(BaseModel):
+    probabilidad_incumplimiento: float
+    umbral_aplicado: float
+    clasificacion: str
+    explicacion: Explicacion
+
+# Esquema para inputs múltiples (formato antiguo)
+class PredictionResultsLegacy(BaseModel):
     errors: Optional[Any]
     version: str
     predictions: Optional[List[float]]

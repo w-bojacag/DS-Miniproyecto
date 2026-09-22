@@ -44,11 +44,13 @@ Cada servicio lee su configuración desde un archivo `.env` ubicado en su carpet
 
 ```env
 PORT=8001
+RISK_THRESHOLD=0.40
 ```
 
 | Variable | Descripción |
 |---|---|
 | `PORT` | Puerto en el que la API escucha dentro del contenedor. **Obligatoria**: sin ella la API no inicia. |
+| `RISK_THRESHOLD` | Umbral que representa una política general para convertir una probabilidad en una decisión. **Obligatoria**: sin ella la API no inicia. |
 
 ### 3.2 Tablero: `src-dash/.env`
 
