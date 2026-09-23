@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    build: ./src-api  # Asegúrate de que coincida con el nombre exacto de la carpeta
+    ports:
+      - "8001:8001"
+
+  dash:
+    build: ./src-dash # Asegúrate de que coincida con el nombre exacto de la carpeta
+    ports:
+      - "8501:8501"   # Mapea el puerto 8501 real de Streamlit
+    depends_on:
+      - api
