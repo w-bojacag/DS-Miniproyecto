@@ -1,0 +1,6210 @@
+[
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 467,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 6,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1299,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 27,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 10,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 474,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 298,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 150,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 59,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 171,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 530,
+    "incumplidos": 19
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 297,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 6,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 179,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 77,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 24,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 162,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 643,
+    "incumplidos": 45
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 20,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 308,
+    "incumplidos": 26
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 211,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 4,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 81,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 46,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 108,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 445,
+    "incumplidos": 48
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 23,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 5,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 262,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 149,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 64,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 19,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 558,
+    "incumplidos": 99
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 75,
+    "incumplidos": 29
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 24,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 22,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1478,
+    "incumplidos": 203
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 200,
+    "incumplidos": 70
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 68,
+    "incumplidos": 39
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 43,
+    "incumplidos": 25
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 501,
+    "incumplidos": 57
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 70,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 26,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 9,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 224,
+    "incumplidos": 26
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 27,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 13,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 97,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 24,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 68,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 197,
+    "incumplidos": 58
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 40,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 11,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 17,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 67,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 11,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 7,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 37,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 10,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 10,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "18-30",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 1186,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 13,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1231,
+    "incumplidos": 33
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 21,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 1226,
+    "incumplidos": 30
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 23,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 1359,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 25,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 1368,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 857,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 479,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 581,
+    "incumplidos": 26
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 667,
+    "incumplidos": 28
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 13,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 732,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 20,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 722,
+    "incumplidos": 26
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 11,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 489,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 7,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 382,
+    "incumplidos": 19
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 14,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 646,
+    "incumplidos": 30
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 27,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 752,
+    "incumplidos": 32
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 22,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 818,
+    "incumplidos": 44
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 21,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 731,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 18,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 430,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 260,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 14,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 8,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 507,
+    "incumplidos": 41
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 24,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 9,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 552,
+    "incumplidos": 46
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 28,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 9,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 13,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 574,
+    "incumplidos": 51
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 31,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 465,
+    "incumplidos": 30
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 17,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 293,
+    "incumplidos": 31
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 7,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 609,
+    "incumplidos": 111
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 114,
+    "incumplidos": 52
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 49,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 34,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1136,
+    "incumplidos": 170
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 186,
+    "incumplidos": 64
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 71,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 58,
+    "incumplidos": 39
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 1008,
+    "incumplidos": 153
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 166,
+    "incumplidos": 69
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 65,
+    "incumplidos": 26
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 56,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 800,
+    "incumplidos": 105
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 73,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 39,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 29,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 597,
+    "incumplidos": 69
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 57,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 19,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 12,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 333,
+    "incumplidos": 54
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 8,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 8,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 79,
+    "incumplidos": 28
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 22,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 10,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 10,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 152,
+    "incumplidos": 38
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 47,
+    "incumplidos": 26
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 13,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 21,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 146,
+    "incumplidos": 58
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 40,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 17,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 26,
+    "incumplidos": 19
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 108,
+    "incumplidos": 36
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 20,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 19,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 13,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 86,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 9,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 8,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 54,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "31-40",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 2276,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 24,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1315,
+    "incumplidos": 23
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 21,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 1537,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 27,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 1996,
+    "incumplidos": 39
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 37,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 2450,
+    "incumplidos": 40
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 40,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 2500,
+    "incumplidos": 44
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 30,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 829,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 587,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 11,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 733,
+    "incumplidos": 17
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 1056,
+    "incumplidos": 40
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 13,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 1233,
+    "incumplidos": 40
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 23,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 1270,
+    "incumplidos": 33
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 667,
+    "incumplidos": 38
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 19,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 590,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 781,
+    "incumplidos": 42
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 33,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 1073,
+    "incumplidos": 64
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 37,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 1222,
+    "incumplidos": 56
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 22,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 1187,
+    "incumplidos": 43
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 17,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 389,
+    "incumplidos": 31
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 405,
+    "incumplidos": 41
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 7,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 561,
+    "incumplidos": 49
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 35,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 723,
+    "incumplidos": 76
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 32,
+    "incumplidos": 17
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 9,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 816,
+    "incumplidos": 71
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 36,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 9,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 769,
+    "incumplidos": 68
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 28,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 862,
+    "incumplidos": 131
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 123,
+    "incumplidos": 57
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 57,
+    "incumplidos": 35
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 40,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 844,
+    "incumplidos": 138
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 150,
+    "incumplidos": 59
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 42,
+    "incumplidos": 25
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 35,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 871,
+    "incumplidos": 140
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 135,
+    "incumplidos": 61
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 71,
+    "incumplidos": 36
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 50,
+    "incumplidos": 31
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 892,
+    "incumplidos": 138
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 104,
+    "incumplidos": 45
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 45,
+    "incumplidos": 20
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 51,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 952,
+    "incumplidos": 118
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 81,
+    "incumplidos": 31
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 28,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 23,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 867,
+    "incumplidos": 104
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 63,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 11,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 22,
+    "incumplidos": 17
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 85,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 21,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 10,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 14,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 106,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 33,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 16,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 19,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 106,
+    "incumplidos": 39
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 22,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 17,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 106,
+    "incumplidos": 23
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 24,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 19,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 14,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 104,
+    "incumplidos": 30
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 12,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 14,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 98,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "41-50",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 3420,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 37,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1513,
+    "incumplidos": 33
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 19,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 1646,
+    "incumplidos": 39
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 27,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 2082,
+    "incumplidos": 40
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 41,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 2568,
+    "incumplidos": 43
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 29,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 3269,
+    "incumplidos": 48
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 37,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 1010,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 20,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 601,
+    "incumplidos": 20
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 6,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 724,
+    "incumplidos": 28
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 13,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 904,
+    "incumplidos": 40
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 23,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 1047,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 1450,
+    "incumplidos": 29
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 798,
+    "incumplidos": 31
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 14,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 12,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 8,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 558,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 14,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 691,
+    "incumplidos": 30
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 866,
+    "incumplidos": 49
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 35,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 1024,
+    "incumplidos": 40
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 30,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 8,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 1233,
+    "incumplidos": 47
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 27,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 441,
+    "incumplidos": 36
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 8,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 9,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 340,
+    "incumplidos": 36
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 13,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 443,
+    "incumplidos": 48
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 23,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 534,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 33,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 7,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 599,
+    "incumplidos": 43
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 29,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 9,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 767,
+    "incumplidos": 44
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 23,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 806,
+    "incumplidos": 89
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 117,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 44,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 29,
+    "incumplidos": 17
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 607,
+    "incumplidos": 86
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 101,
+    "incumplidos": 34
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 35,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 16,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 609,
+    "incumplidos": 94
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 94,
+    "incumplidos": 41
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 41,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 32,
+    "incumplidos": 20
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 672,
+    "incumplidos": 84
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 94,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 29,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 24,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 648,
+    "incumplidos": 77
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 65,
+    "incumplidos": 20
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 20,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 29,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 719,
+    "incumplidos": 70
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 46,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 12,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 12,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 65,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 19,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 10,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 10,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 74,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 25,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 15,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 71,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 12,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 13,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 79,
+    "incumplidos": 17
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 18,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 5,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 63,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 68,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 7,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "51-60",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 4251,
+    "incumplidos": 37
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 42,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 1853,
+    "incumplidos": 31
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 24,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 1807,
+    "incumplidos": 19
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 21,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 2032,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 18,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 2097,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 25,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 2572,
+    "incumplidos": 30
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 19,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 972,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 10,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 500,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 7,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 595,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 691,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 10,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 732,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 891,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 556,
+    "incumplidos": 15
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 17,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 419,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 11,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 470,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 17,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 516,
+    "incumplidos": 17
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 569,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 668,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 287,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 240,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 14,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 264,
+    "incumplidos": 20
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 287,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 319,
+    "incumplidos": 27
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 21,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 394,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 11,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 608,
+    "incumplidos": 39
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 64,
+    "incumplidos": 21
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 19,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 16,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 439,
+    "incumplidos": 54
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 59,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 15,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 9,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 346,
+    "incumplidos": 33
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 35,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 15,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 12,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 310,
+    "incumplidos": 25
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 29,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 11,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 5,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 294,
+    "incumplidos": 24
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 13,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 7,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 361,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 57,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 35,
+    "incumplidos": 12
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 15,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 27,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 10,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 6,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 28,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 27,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 29,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "61-70",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 4099,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 29,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 2231,
+    "incumplidos": 22
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 16,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 1923,
+    "incumplidos": 18
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 17,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 1657,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 8,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 1292,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 12,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 1104,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "0-10%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 511,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 369,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 7,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 346,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 315,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 255,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 221,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "10-25%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 219,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 245,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 2,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 238,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 223,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 165,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 4,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 153,
+    "incumplidos": 8
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "25-50%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 106,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 147,
+    "incumplidos": 13
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 14,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 110,
+    "incumplidos": 5
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 5,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 2,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 97,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 88,
+    "incumplidos": 6
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 70,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "50-75%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 372,
+    "incumplidos": 14
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 255,
+    "incumplidos": 16
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 26,
+    "incumplidos": 11
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 6,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 172,
+    "incumplidos": 10
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "1",
+    "clientes": 9,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 4,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 104,
+    "incumplidos": 7
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "1",
+    "clientes": 7,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "2",
+    "clientes": 5,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "3 o más",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 88,
+    "incumplidos": 9
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 3,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 70,
+    "incumplidos": 4
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": "75-100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "0",
+    "clientes": 24,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "1",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "No reportado",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "0",
+    "clientes": 13,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "1",
+    "clientes": 4,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q1 (más bajo)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "0",
+    "clientes": 9,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q2",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q3",
+    "moras_90_previas": "0",
+    "clientes": 9,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "0",
+    "clientes": 8,
+    "incumplidos": 2
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "1",
+    "clientes": 2,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "2",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q4",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "0",
+    "clientes": 12,
+    "incumplidos": 3
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "1",
+    "clientes": 1,
+    "incumplidos": 0
+  },
+  {
+    "grupo_edad": "70+",
+    "tramo_utilizacion": ">100%",
+    "quintil_ingreso": "Q5 (más alto)",
+    "moras_90_previas": "3 o más",
+    "clientes": 1,
+    "incumplidos": 1
+  }
+]
